@@ -9,7 +9,6 @@ const initialState = {
 
 export const registerUser = createAsyncThunk(
   "/auth/register",
-
   async (formData) => {
     const response = await axios.post(
       "https://cw-server.vercel.app/api/auth/register",
@@ -18,7 +17,6 @@ export const registerUser = createAsyncThunk(
         withCredentials: true,
       }
     );
-
     return response.data;
   }
 );
