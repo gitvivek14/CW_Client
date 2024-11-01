@@ -188,7 +188,7 @@ function ShoppingHome() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-8">Shop by Brand</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-            {/* {brandsWithIcon.map((brandItem) => (
+            {brandsWithIcon.map((brandItem) => (
               <Card
                 onClick={() => handleNavigateToListingPage(brandItem, "brand")}
                 className="cursor-pointer hover:shadow-lg transition-shadow"
@@ -198,7 +198,7 @@ function ShoppingHome() {
                   <span className="font-bold">{brandItem.label}</span>
                 </CardContent>
               </Card>
-            ))} */}
+            ))}
           </div>
         </div>
       </section>
